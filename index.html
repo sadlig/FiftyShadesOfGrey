@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FiftyShadesOfGrey</title>
+  
+</head>
+<body>
+  
+</body>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+
+var startcolor = 0xfdfdfd;
+var endcolor = 0x020202;
+
+var diff = startcolor - endcolor;
+
+
+
+var pace = parseInt(diff / 49);
+
+console.log(pace);
+
+var bg = startcolor;
+
+for (var i = 0; i < 49; i++) {
+
+//console.log(bg.toString(16));
+bg+=pace;
+
+/*var newElt = $()
+   $('body').append();*/
+}
+
+
+</script>
+</html>
